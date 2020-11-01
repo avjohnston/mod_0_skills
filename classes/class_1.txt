@@ -1,0 +1,13 @@
+Class: Waiter
+
+attributes:
+place_of_work (string)
+years_experience (integer)
+knowledge_of_menu (boolean)
+name (string)
+
+methods:
+get_new_job (updates place_of_work)
+work_for_1_year (increments years_experience by 1)
+learn_menu (reassigns knowledge_of_menu to true)
+state_name (prints name)
