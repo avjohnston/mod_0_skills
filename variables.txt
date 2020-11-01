@@ -1,0 +1,15 @@
+food = "Pasta"
+is_delicious = true
+
+food = "Meatballs"
+
+num2 = 16
+
+num7 = 4
+
+quotient = num2 / num7
+
+songs = ["Love Me Do", "Happiness Is a Warm Gun", "Let It Be"]
+songs.slice!(0)
+
+food.length
