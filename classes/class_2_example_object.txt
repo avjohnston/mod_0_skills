@@ -1,0 +1,15 @@
+Class: Menu
+
+Instance: Andrew's Kitchen Menu
+
+attributes:
+meal_options (array): ["Steak Quesadilla", "Spaghetti and Meatballs", "Fried Chicken and Potatoes"]
+pages (integer): 1
+title (string): "Andrew's Kitchen"
+in_english (boolean): true
+
+methods:
+insert_food_quote (increment pages by 1): pages = 2
+add_new_meal (adds new object to meal_options array): meal_options = ["Steak Quesadilla", "Spaghetti and Meatballs", "Fried Chicken and Potatoes", "Chicken Fried Rice"]
+change_title (changes title): title = "Andrew's Rootin' Tootin' Restaurant"
+convert_to_another_language (reassigns in_english to false):in_english = false
