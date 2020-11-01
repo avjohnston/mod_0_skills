@@ -1,0 +1,13 @@
+Class: Menu
+
+attributes:
+meal_options (array)
+pages (integer)
+title (string)
+in_english (boolean)
+
+methods:
+insert_food_quote (increment pages by 1)
+add_new_meal (adds new object to meal_options array)
+change_title (changes title)
+convert_to_another_language (reassigns in_english to false)
