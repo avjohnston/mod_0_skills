@@ -1,0 +1,14 @@
+Class: Waiter
+
+Instance: Jenny Brown
+attributes:
+place_of_work (string): "TGI Friday's"
+years_experience (integer): 2
+knowledge_of_menu (boolean): false
+favorite_regular (string): "Norman Penny"
+
+methods:
+get_new_job (updates place_of_work): place_of_work = "Chili's"
+work_for_1_year (increments years_experience by 1): years_experience = 2
+learn_menu (reassigns knowledge_of_menu to true): knowledge_of_menu = true
+argue_with_favorite_regular (changes favorite-regular to someone new): favorite_regular = "Jane Doe"
